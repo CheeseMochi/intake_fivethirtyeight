@@ -1,0 +1,8 @@
+sources:
+  fivethirtyeight:
+    description: |
+      Root fivethirtyeight projects catalog. The purpose is to call the .search() method to
+      get specific projects matching the search. Without search, you
+      get all datasets
+    driver: intake_fivethirtyeight.Five38Catalog
+
